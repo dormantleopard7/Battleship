@@ -8,9 +8,7 @@ public class UserBoardGenerator {
 	private char[][] board;
 	private boolean gameOver;
 
-	//public static void main(String[] args) {
 	public UserBoardGenerator() {
-		// TODO Auto-generated method stub
 		board = new char[8][8];
 		Scanner console = new Scanner(System.in);
 		for (int i = 0; i < board.length; i++) {

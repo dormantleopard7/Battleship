@@ -6,7 +6,6 @@ import java.util.*;
 public class BattleshipGame1 {
 
 	public static void main(String[] args) {
-		
 		RandomBoardGenerator cpu = new RandomBoardGenerator();
 		UserBoardGenerator user = new UserBoardGenerator();
 		

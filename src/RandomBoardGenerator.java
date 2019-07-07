@@ -17,8 +17,6 @@ public class RandomBoardGenerator {
 	private boolean gameOver;
 	private Scanner console;
 
-	//public static void main(String[] args) {
-		// TODO Auto-generated method stub
 	public RandomBoardGenerator() {
 		random = new Random();
 		board = new char[8][8];
